@@ -1,0 +1,11 @@
+on:
+  workflow_dispatch:
+    inputs:
+      environment:
+        description: 'Deployment environment'
+        required: true
+        type: string
+      version:
+        description: 'Build version'
+        required: true
+        type: string
